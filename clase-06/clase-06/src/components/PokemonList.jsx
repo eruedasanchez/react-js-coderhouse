@@ -4,7 +4,7 @@ import Pokemon from "./Pokemon/Pokemon"
 const PokemonList = () => {
 
     const [currentList, setCurrentList] = useState([]);
-    const [url, setUrl] = useState(["https://pokeapi.co/api/v2/pokemon?limit=5&offset=0"]);
+    const [url, setUrl] = useState(["https://pokeapi.co/api/v2/pokemon?limit=5&offset=5"]);
     const [next, setNext] = useState("");
     const [previous, setPrevious] = useState("");
 
@@ -27,6 +27,8 @@ const PokemonList = () => {
             setPrevious(data.previous);
         })
     }, [url])
+
+    console.log(currentList);
     
 
     
