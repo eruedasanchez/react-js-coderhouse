@@ -14,7 +14,7 @@ const Navbar = () => {
                 <li><Link className="menu-link" to="/productos/new-arrival">New Arrival</Link></li>
                 <li><Link className="menu-link" to="/nosotros">Nosotros</Link></li>
                 <li><Link className="menu-link" to="/contacto">Contacto</Link></li>
-            </ul>
+                </ul>
         </nav>
     )
 }
