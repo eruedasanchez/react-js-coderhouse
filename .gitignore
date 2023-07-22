@@ -1,3 +1,4 @@
 # Hello gitignore
 
 /.vscode
+/node_modules
